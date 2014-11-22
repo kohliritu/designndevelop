@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Me</title>
+<link href="finalPortfolioCSS.css" rel="stylesheet" type="text/css" />
+<script type = "text/javascript">
+	var xmlhttp; //declare a public object pointer for security
+
+function checkID()
+{
+	
+	//get user input into local variable
+	var fullname = document.getElementById("fullname").value;	
+	var email = document.getElementById("youremail").value;
+	var phone = document.getElementById("yourphone").value;
+	var message = document.getElementById("message").value;
+
+
+	//var messagevalue = document.getElementById("message").value;	
+	//var uservalue=" ";
+	//var useremail=" ";
+	//create a new request object
+	xmlhttp=new XMLHttpRequest(); 		
+	//var querystring = "?fullname="+fullname+ "&email="+email+ "&phone="+phone + "&message="+message;
+
+	//create url string with file destination, value with name `q`
+	var url="php/filltable.php?fullname="+fullname+ "&email="+email+  "&phone="+phone + "&message="+message;
+
+	//url=url + "&sid=" + Math.random();  		//disable caching
+
+	xmlhttp.onreadystatechange=stateChanged;	//call function when returned
+
+	xmlhttp.open("GET",url,true);  			//open url connection
+
+	xmlhttp.send(null);	 //send value to the php page
+
+
+}//checkID()
+
+function stateChanged()//called when the php page responds 
+{
+	if (xmlhttp.readyState==4)
+	{
+		//display returned results from server
+		document.getElementById("result").innerHTML=xmlhttp.responseText;	
+		document.getElementById("rightdiv").style.display="none";	
+	}
+
+}//stateChanged()
+
+
+</script>
+</head>
+
+<body style="margin:auto">
+
+<div id="container">
+
+  <div id="banner">
+    <div id="logo"><img src="images/logo_03.jpg" width="202" height="118" alt="logo" /></div><!--logo closed-->
+    <div id="trans">Content for  id "trans" Goes Here</div>
+<div id="name">
+      <p class="alignright">Ritu Kohli<br/>
+        Email : kohliritu77@gmail.com<br/>
+        # : (647) 891-6369</p>
+    </div><!--name closed-->
+   
+<div id="menu">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="30" valign="bottom" bgcolor="#000000" width="600">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr bgcolor="#434444">
+        <td width="94"><img src="images/top_shade.jpg" width="63" height="25" /></td>
+          <td width="98" height="25" align="center"><a href="index.html">Home</a></td>
+          <td width="9" align="center">|</td>
+          <td width="79" align="center"><a href="aboutme.html">About Me</a></td>
+           <td width="9" align="center">|</td>
+          <td width="101" align="center"><a href="resume.html">Resume</a></td>
+           <td width="9" align="center">|</td>
+          <td width="105" align="center"><a href="#">My Work</a></td>
+           <td width="9" align="center">|</td>
+          <td width="94" align="center" bgcolor="#434444"><a href="contactme.html">Contact Me</a></td>
+        </tr>
+      </table></td>
+      <td bgcolor="#000000" width="150"><table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="images/linkedIn2.jpg" alt="linkedIn" width="42" height="37" border="0" usemap="#Map" /></td>
+          <td><img src="images/twitter2.jpeg" alt="twitter" width="42" height="37" border="0" usemap="#Map2" /></td>
+          
+          <td><img src="images/facebook2.jpg" width="42" height="37" alt="facebook" /></td>
+          <td valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="25" bgcolor="#434444"><img src="images/trans.gif" width="25" height="25" /></td>
+  </tr>
+</table>
+</td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+    </div><!--menu closed-->
+   
+  </div><!--banner closed-->
+<div id="content">
+        <div id="leftcontact">
+	<div id="subcontact">
+	<h3 class="heading">Contact Me</h3><br/>
+          <span>Please feel free to contact me via any of the details provided or use the form to let me know about your project, request for a proposal, or simply say 'Hi'.&nbsp;</span>
+      </div>  
+          <div id="contact_phone">
+        <img src="images/phone2.png" width="42" height="37" alt="phone" />
+</div>
+          <div id="number"><span class="number">(647) 891-6369</span></div>
+          <div id="contact_email">
+ 	 <img src="images/email.png" width="42" height="37" alt="email" /></div>
+ 	 <div id="email">kohliritu77@gmail.com</div>
+<div><iframe width="400" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Comiskey+Crescent,+Mississauga,+ON&amp;aq=0&amp;oq=comis&amp;sll=43.660048,-79.67062&amp;sspn=0.037815,0.077162&amp;dirflg=ht&amp;ie=UTF8&amp;hq=&amp;hnear=Comiskey+Crescent,+Mississauga,+Peel+Regional+Municipality,+Ontario+L5W+0C5&amp;t=m&amp;z=14&amp;ll=43.641843,-79.719892&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Comiskey+Crescent,+Mississauga,+ON&amp;aq=0&amp;oq=comis&amp;sll=43.660048,-79.67062&amp;sspn=0.037815,0.077162&amp;dirflg=ht&amp;ie=UTF8&amp;hq=&amp;hnear=Comiskey+Crescent,+Mississauga,+Peel+Regional+Municipality,+Ontario+L5W+0C5&amp;t=m&amp;z=14&amp;ll=43.641843,-79.719892" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
+     <div id="tellme">
+<h3>Tell me about your project.<br/>
+I look forward to hearing from you.
+</h3></div>
+</div><!--leftcontact close-->
+         
+        <div id="rightcontact">
+<div id="rightdiv">
+        <div id="detail"><h3 class="heading">Please fill in your details</h3></div>
+        <div id="divform">
+<!--<form id="myForm" method="post" action="catchPost.php" onsubmit="return validateInput()">-->
+<form>
+  Enter Your Name (required): <br/>
+  <input size="40" id="fullname" name="fullname" type="text" required="required"/>
+<br />
+<br />
+Enter Your E-mail (required): <br/>
+<input size="40" id="youremail" name="youremail" type="text" required="required"/>
+<br />
+<br />
+Enter Your Phone Number (required): <br/>
+<input size="10" id="yourphone" name="yourphone" type="text" required="required"/>
+<br />
+<br />
+Tell me what you're looking for: <br/>
+<textarea rows="8" cols="40" id="message" name="message"></textarea>
+<br />
+<br />
+<input type="button" value="Send" onclick="checkID()"/> <input type="reset"/>
+</form>
+<!--</form>-->
+</div>
+</div>
+<div id="result"></div>
+  </div><!--rightcontact closed-->
+  <div id="footer">Content for  id "footer" Goes Here</div>
+</div><!--content closed-->
+<map name="Map" id="Map">
+  <area shape="circle" coords="21,21,15" href="http://ca.linkedin.com/pub/ritu-kohli/52/3a9/690" target="_blank" />
+</map>
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="5,6,40,35" href="https://twitter.com/kohliritu77" target="_blank" alt="twitter" />
+</map>
+</body>
+</html>

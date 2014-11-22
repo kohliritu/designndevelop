@@ -1,0 +1,253 @@
+@charset "utf-8";
+
+td{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#fff;
+}
+#container {
+	width: 1000px;
+	margin: auto;
+}
+#container #banner {
+	float: left;
+	height: 140px;
+	width: 100%;
+	background-color: #000;
+}
+#container #banner #logo {
+	float: left;
+	height: 118px;
+	width: 250px;
+}
+
+#container #banner #name {
+	float: left;
+	height: 76px;
+	width: 250px;
+	color: #FFF;
+}
+#container #banner #trans {
+	float: left;
+	width: 500px;
+	height: 76px;
+}
+
+
+
+#container #banner #menu {
+	float: left;
+	height: 41px;
+	width: 750px;
+	margin-top: 10px;
+}
+#content #leftcontact #contact_phone {
+	float: left;
+	height: 37px;
+	width: 15%;
+}
+#content #leftcontact #number {
+	float: left;
+	height: 37px;
+	width: 85%;
+	padding-top: 8px;
+}
+#content #leftcontact #contact_email {
+	float: left;
+	height: 37px;
+	width: 15%;
+	margin-top: 15px;
+}
+#content #leftcontact #tellme {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 15px;
+	padding-top: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #666;
+	font-style: italic;
+}
+.heading    {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000;
+}
+
+#content #leftcontact #email {
+	float: left;
+	height: 37px;
+	width: 85%;
+	margin-top: 15px;
+	padding-top: 8px;
+}
+
+
+
+#container #banner #menu #aboutme a {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	
+}
+#container #content #leftcontent {
+	float: left;
+	margin: 20px;
+	width: 490px;
+	border: medium groove #3CF;
+	height: 500px;
+	padding: 5px;
+}
+
+#content #rightcontact {
+	float: left;
+	width: 420px;
+	height: 510px;
+	border: medium groove #3CF;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-left: 5px;
+}
+.resumelink {
+	float: left;
+	height: 20px;
+	width: 450px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+#content #leftcontact #subcontact {
+	float: left;
+	height: 180px;
+	width: 100%;
+	margin-top: 20px;
+}
+#content #rightcontact #detail {
+	float: left;
+	height: 70px;
+	width: 100%;
+	margin-top: 30px;
+}
+#content #rightcontact #divform {
+	float: left;
+	height: auto;
+	width: 400px;
+	padding-left: 15px;
+}
+
+
+
+
+
+#container #content #about_content {
+	float: left;
+	margin: 20px;
+	width: 490px;
+	border: medium groove #3CF;
+	height: 500px;
+	padding: 5px;
+}
+#container #banner #menu table tr td table tr td a {
+	color: #FFF;
+	text-decoration: none;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	padding: 5px;
+}
+
+#container #content #resumeleftcontent {
+	float: left;
+	margin: 20px;
+	width: 490px;
+	border: medium groove #3CF;
+	height: 500px;
+	padding: 5px;
+}
+#container #banner #name .alignright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#container #banner #menu table tr td table tr td a:hover {
+	color: #FFF;
+	font-size: 12px;
+	background-color: #09F;
+}
+#container #content #rightcontent {
+	float: left;
+	width: 400px;
+	margin: 20px;
+	height: 400px;
+	background-color: #fdfffe;
+}
+#content #leftcontact {
+	float: left;
+	margin: 20px;
+	width: 450px;
+	border: medium groove #3CF;
+	height: 500px;
+	padding: 5px;
+}
+
+#container #content #about_rightcontent {
+	float: left;
+	width: 400px;
+	margin: 20px;
+	background-color: #fdfffe;
+	height: 500px;
+}
+#container #content #resumerightcontent {
+	float: left;
+	width: 400px;
+	margin: 20px;
+	background-color: #fdfffe;
+	height: 400px;
+}
+#container #content {
+	background-repeat: repeat-x;
+	background-image: url(images/content.jpg);
+	float: left;
+	width: 100%;
+}
+#container #content #footer {
+	float: left;
+	height: 45px;
+	width: 900px;
+	margin-left: 20px;
+	border: thin solid #000;
+}
+#container #content #rightcomments {
+	float: left;
+	width: 400px;
+	height: 510px;
+	border: medium groove #3CF;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-left: 5px;
+}
+.fadein 
+{ 
+position:relative; width:384px; height:283px;
+ }
+.fadein img 
+{
+ position:absolute; left:0; top:0;
+ }
+/*.sidebar { border:1px dashed #4b7498; margin-bottom:15px; }*/
+.sidebar h4 { margin-left:15px; padding:0px; margin-bottom:10px; text-transform:uppercase; font-size:18px; } 
+#container #content #work_content {
+width:200px;
+height:500px;
+float:left;
+border:1px dashed #4b7498; margin:15px;
+}
+#container #content #work_rightcontent {
+width:700px;
+height:500px;
+float:left;
+border:1px dashed #4b7498; margin:15px;
+}
